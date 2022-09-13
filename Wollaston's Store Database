@@ -46,7 +46,7 @@ SELECT Aisle, Items, Price FROM Wollastons ORDER BY Aisle ASC, Price ASC; --To g
 
 Please find the output to my code above here:
 
-https://www.khanacademy.org/computer-programming/spin-off-of-project-design-a-store-database/6005298198790144
+https://www.khanacademy.org/computer-programming/wollastons-store-database/6005298198790144
 
 
 
