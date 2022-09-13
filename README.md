@@ -16,6 +16,6 @@ Finally, I asked myself two simple-straightforward questions.
 
 # Conclusion
 
-I am satisfied with the result of my code and I am hoping to increase the scope of my upcoming projects as I hoping to gain skills in Web Scraping, Data Munging, Data cleaning, Data Analysis etc. Stay tuned for more!
+I am satisfied with the result of my code and I will be increasing the scope of my upcoming projects as I am hoping to gain skills in Web Scraping, Data Munging, Data cleaning, Data Analysis etc., Stay tuned for more!
 
 
