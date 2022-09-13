@@ -7,7 +7,7 @@ Hello! I am Rohit Paul Gerard Nagarajan, a graduate student at Northeastern Univ
 
 I have created a project on Wollaston's Store Database where I have picked random data of my own discretion. I created the table using CREATE statement and have created 5 new columns respectively. 
 
-Then, I have inserted 15 rows pertaining to various aisles, items, their prices, quantities etc. 
+Then, I have inserted 15 rows pertaining to various aisles, items, their prices, quantities etc., using INSERT statements. 
 
 Finally, I asked myself two simple-straightforward questions.
 1. How many items are there in each Aisle?
