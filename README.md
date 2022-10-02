@@ -1,7 +1,3 @@
-# Introduction
-
-Hello! I am Rohit Paul Gerard Nagarajan, a graduate student at Northeastern University, Boston. I am majoring in Information Systems. This repository is a collection of all my projects related to Database Management, Data Architecture and much more.
-
 
 # Wollaston's Store Database project
 
@@ -24,10 +20,11 @@ I have created my first data mining project where I used pre-existing dataset fr
 4. What interesting ways are there to filter the data?
 
 
+# Human Resources Officer
 
+I have programmed and developed a GUI window-based application using Java in NetBeans IDE.
+Curated a UI that facilitates Human Resource processes like creating, reading, updating and deleting employees’ records and other 
+confidential data.
 
-# Conclusion
-
-I am satisfied with the result of my projects and I will be increasing the scope of my upcoming projects as I am hoping to gain skills in Web Scraping, Data Munging, Data cleaning, Data Analysis, Data Engineering etc., Stay tuned for more!
 
 
