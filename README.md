@@ -9,7 +9,7 @@ I have created a database system whose sole purpose is to recommend best restaur
 4. Cleaned the scraped data using Pandas library in Python, reformatted the data as per database structure and eliminated redundant work by code optimization
 5. Modeled a relational data model in E/R Studio Data Architect for the Restaurant Recommedation System and established meaningful relationships
 6. Created tables in Dbeaver and loaded clean data using Psycopg2 library in correspondence to the data model, received 0 load failures and answered business quesitons
-7. Visualized data using Microsoft Power BI that 
+7. Successfully extracted restaurant recommendation data from Dbeaver and imported into Microsoft Power BI for data visualization and analysis, resulting in effective representation and illustration of insights
  
 
 
