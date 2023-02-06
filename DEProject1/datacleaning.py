@@ -52,3 +52,5 @@ df6['Sl_No'] = range(1, len(df6) + 1)
 df7 = df6.reindex(columns=['Sl_No','Restaurant_Name','Restaurant_Number','Restaurant_Address','City','State','ZipCode','TripAdvisor_Rating','TripAdvisor_Rating_Count','Foursquare_Rating'])
 
 # df7.to_csv('DF7.csv',index=False)
+
+# print(df7)
