@@ -5,10 +5,10 @@ I have created a database system whose sole purpose is to recommend best restaur
 
 1. The database system is created upon multiple parameters like Restaurant name, Address, Contact, Location, Foursquare ratings and TripAdvisor ratings 
 2. Created an AWS RDS database instance for PostgreSQL for restaurant data storage and linked my database server with Dbeaver tool for data querying
-3. Scraped restaurant data from yellowpages.com using BeautifulSoup library in Python and received 800+ records worth of structured data
+3. Scraped restaurant data from yellowpages.com from multiple pages using BeautifulSoup library in Python and received 800+ records worth of structured data
 4. Cleaned the scraped data using Pandas library in Python, reformatted the data as per database structure and eliminated redundant work by code optimization
 5. Modeled a relational data model in E/R Studio Data Architect for the Restaurant Recommedation System and established meaningful relationships
-6. Created tables in Dbeaver and loaded clean data using Psycopg2 library in correspondence to the data model, received 0 load failures and answered business quesitons
+6. Created tables in Dbeaver, loaded clean data efficiently using Psycopg2 library, achieving 0 load failures and utilized the data model to answer business questions efficiently
 7. Successfully extracted restaurant recommendation data from Dbeaver and imported into Microsoft Power BI for data visualization and analysis, resulting in effective representation and illustration of insights
 
 Note: You can locate the project in "DEProject1" folder. Inside the folder you will find 4 python files that includes scraping file, connection file, datacleaning file and load file. You will also find PostgreSQL files from Dbeaver and DM1 file for data model from E/R Studio.
