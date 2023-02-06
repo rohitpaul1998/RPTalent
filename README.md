@@ -10,6 +10,8 @@ I have created a database system whose sole purpose is to recommend best restaur
 5. Modeled a relational data model in E/R Studio Data Architect for the Restaurant Recommedation System and established meaningful relationships
 6. Created tables in Dbeaver and loaded clean data using Psycopg2 library in correspondence to the data model, received 0 load failures and answered business quesitons
 7. Successfully extracted restaurant recommendation data from Dbeaver and imported into Microsoft Power BI for data visualization and analysis, resulting in effective representation and illustration of insights
+
+Note: You can locate the project in "DEProject1" folder. Inside the folder you will find 4 python files that includes scraping file, connection file, datacleaning file and load file. You will also find PostgreSQL files from Dbeaver and DM1 file for data model from E/R Studio.
  
 
 
