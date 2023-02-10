@@ -51,6 +51,32 @@ df6['Sl_No'] = range(1, len(df6) + 1)
 #rearrangin columns
 df7 = df6.reindex(columns=['Sl_No','Restaurant_Name','Restaurant_Number','Restaurant_Address','City','State','ZipCode','TripAdvisor_Rating','TripAdvisor_Rating_Count','Foursquare_Rating'])
 
-# df7.to_csv('DF7.csv',index=False)
+# df7.to_csv('DF8.csv',index=False)
 
-# print(df7)
+
+# segregating current dataframe into 3 for 3 tables
+
+#TABLE 1 - RESTAURANTS
+
+df7['Restaurant_ID'] = range(1, len(df6) + 1)
+df8 = df7.reindex(columns=['Restaurant_ID','Restaurant_Name','Restaurant_Number','Restaurant_Address','City','State','ZipCode'])
+# print(df8)
+
+# df8.to_csv('Restaurant Table.csv',index=False)
+
+
+#TABLE 2 - TRIPADVISOR RATINGS
+
+df7['Tripadvisor_ID'] = range(1, len(df6) + 1)
+df9 = df7.reindex(columns=['Tripadvisor_ID','TripAdvisor_Rating','TripAdvisor_Rating_Count','Restaurant_ID'])
+# print(df9)
+
+# df9.to_csv('Tripadvisor Ratings.csv',index=False)
+
+
+#TABLE 3 - FOURSQUARE RATINGS
+
+df7['Foursquare_ID'] = range(1, len(df6) + 1)
+df10 = df7.reindex(columns=['Foursquare_ID','Foursquare_Rating','Restaurant_ID'])
+# print(df10)
+# df10.to_csv('Foursquare Rating table.csv',index=False)
