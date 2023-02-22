@@ -1,3 +1,25 @@
+# Boston Crime Analysis 
+
+1. Setup a Dataproc cluster on Google Cloud, extracted Boston Crimes data from the CSV file using Hadoop and stored it on HDFS in a distributed manner, resulting in a 50% decrease in data processing time
+
+2. Extracted, cleansed, transformed, loaded 300,000 + records using PySpark in a PySpark dataframe and stored the resulting data in a CSV file, reducing data redundancy by 15% and improving data accuracy by 90%
+
+3. Leveraged Hive by creating a database, conducted in-depth data analysis through querying and filtering the data, revealing key insights that can aid in criminal investigation and prevention
+
+4. Automated the entire data processing pipeline using a Spark-submit job, saving approximately 2 hours of manual work and improving overall efficiency
+
+5. Designed and implemented an end-to-end data pipeline in AWS, using S3 for storing data lakes, Athena for data analysis, and Glue ETL jobs for transforming and loading structured data, thereby achieving a reduction in data processing time by 40%
+
+Note: The code and results of this project are present in the "Big Data Project" directory. Inside you will find scripts for PySpark for performing data transformation/data cleaning of the Boston Crimes dataset, you will find a text file for Google dataproc that has code for PySpark programmed on the spark-shell, leveraged HDFS and Hive for faster data processing as well. You will also find files for AWS glue ETL. Unfortunately, I was not able to download the PySpark script I manually coded in the AWS Glue ETL job for data transformation. But I am attaching few snapshots here for reference.
+
+![image](https://user-images.githubusercontent.com/113409553/220561578-b366a324-d5bd-48cc-a730-3629255b4a7d.png)
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/113409553/220561820-f87c7289-a32e-4e7d-8551-ca0d0d390892.png">
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/113409553/220561965-60b9f66b-56ba-4cdf-ad9d-f3dc9e36047e.png">
+
+
+
 
 # Restaurant Recommendation System
 
@@ -13,28 +35,6 @@ I have created a database system whose sole purpose is to recommend best restaur
 
 Note: You can locate the project in "DEProject1" folder. Inside the folder you will find 4 python files that includes scraping file, connection file, datacleaning file and load file. You will also find PostgreSQL files from Dbeaver and DM1 file for data model from E/R Studio.
  
-
-
-# Wollaston's Store Database project
-
-I have created a project on Wollaston's Store Database where I have picked random data of my own discretion. I created the table using CREATE statement and have created 5 new columns respectively. 
-
-Then, I have inserted 15 rows pertaining to various aisles, items, their prices, quantities etc., using INSERT statements. 
-
-Finally, I asked myself two questions and answered them.
-1. How many items are there in each Aisle?
-2. How do I get all items and navigate which is cheap to expensive per Aisle?
-
-
-# NASA Astronauts - A Data Mining project
-
-I have created my first data mining project where I used pre-existing dataset from another source for Astronaut details. Citation is provided in my code. I used unique SELECT statements to answer some of the questions posed. They are:
-
-1. What are average, max, and min values in the data?
-2. What about the numbers per category in the data?
-3. What ways are there to group the data values that don’t exist yet?
-4. What interesting ways are there to filter the data?
-
 
 # Human Resources Officer
 
