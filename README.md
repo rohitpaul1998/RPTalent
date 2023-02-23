@@ -8,7 +8,7 @@
 
 4. Automated the entire data processing pipeline using a Spark-submit job, saving approximately 2 hours of manual work and improving overall efficiency
 
-5. Designed and implemented an end-to-end data pipeline in AWS, using S3 for storing data lakes, Athena for data analysis, and Glue ETL jobs for transforming and loading structured data, thereby achieving a reduction in data processing time by 40%
+5. Designed and implemented an end-to-end data pipeline in AWS, using S3 for creating data lakes, Athena for data analysis, and Glue ETL jobs for transforming and loading structured data, thereby achieving a reduction in data processing time by 40%
 
 Note: The code and results of this project are present in the "Big Data Project" directory. Inside you will find scripts for PySpark for performing data transformation/data cleaning of the Boston Crimes dataset, you will find a text file for Google dataproc that has code for PySpark programmed on the spark-shell, leveraged HDFS and Hive for faster data processing as well. You will also find files for AWS glue ETL. Unfortunately, I was not able to download the PySpark script I manually coded in the AWS Glue ETL job for data transformation. But I am attaching few snapshots here for reference.
 
