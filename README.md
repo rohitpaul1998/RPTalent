@@ -23,7 +23,7 @@ Note: The code and results of this project are present in the "Big Data Project"
 
 # Restaurant Recommendation System
 
-I have created a database system whose sole purpose is to recommend best restaurants in California.
+I created a database system whose sole purpose is to recommend best restaurants in California.
 
 1. The database system is created upon multiple parameters like Restaurant name, Address, Contact, Location, Foursquare ratings and TripAdvisor ratings 
 2. Created an AWS RDS database instance for PostgreSQL for restaurant data storage and linked my database server with Dbeaver tool for data querying
